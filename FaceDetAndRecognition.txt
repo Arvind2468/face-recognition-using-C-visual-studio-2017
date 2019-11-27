@@ -92,7 +92,7 @@ namespace faceDetectionandRecognition
         }
 
         private void FrameProcedure(object sender, EventArgs e)
-        {                               //320 240
+        {                               
             users.Add("");
             frame = camera.QueryFrame().Resize(320, 240, Emgu.CV.CvEnum.INTER.CV_INTER_CUBIC);
             grayFace = frame.Convert<Gray, byte>();
