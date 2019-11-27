@@ -6,7 +6,7 @@ This method uses EignefaceRecognizer to datect and recognize the facethrough web
 FaceDetAndRecog.txt is a c# script attached.
 Copy whole text from that FaceDetAndRecog.txt, paste in your project's .cs file.
 In design part, drop a image box (initially will not be available in toolbox, impiort or install it (simple process!!) ) and a save button and text box where the detected face's name is inputted through text box and saved in a local folder under bin/debug called Faces.
-Create Face.txt file in the same directory.
+Create Face.txt file in the same directory ( Refer to Template.png for design).
 
 as this works using emgucv so copy al dlls and .xml file to bin/debug folder.
 
